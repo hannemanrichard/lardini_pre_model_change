@@ -64,7 +64,8 @@ export default function Home() {
         // } else {
         //   agentId = null;
         // }
-        agentId = 23;
+        agentId = agents[Math.floor(Math.random() * 2)].id;
+        //agentId = 23;
         let productModel;
         let productColor;
         switch (model) {
